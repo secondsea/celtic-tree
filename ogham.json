@@ -1,0 +1,40 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "celtic oracle",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "getscelticoracle",
+                    "slots": [],
+                    "samples": [
+                        "open my celtic oracle",
+                        "open celtic oracle",
+                        "celtic oracle"
+                    ]
+                },
+                {
+                    "name": "Unhandled",
+                    "slots": [],
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
